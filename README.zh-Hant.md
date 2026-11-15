@@ -1,6 +1,6 @@
 # Elechid 音立｜電視視距與尺寸計算器
 
-[English](README.md) · [試用計算器](https://yikshunming-art.github.io/tv-viewing-distance-calculator/?lang=zh) · [Elechid 官網電視尺寸計算器](https://elechid.com/pages/tv-size-calculator)
+[English](README.md) · [試用計算器](https://elechid.github.io/tv-viewing-distance-calculator/?lang=zh) · [Elechid 官網電視尺寸計算器](https://elechid.com/pages/tv-size-calculator)
 
 Elechid 音立提供的免費開源工具。輸入坐低時雙眼到屏幕嘅距離，即可比較三個 16:9 電視尺寸。下載檔案後用瀏覽器開啟 `index.html`，亦可離線計算。所有計算喺瀏覽器完成，毋須帳戶、API 或第三方程式庫。
 

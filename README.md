@@ -1,6 +1,6 @@
 # Elechid 音立 · TV Viewing Distance Calculator
 
-[繁體中文](README.zh-Hant.md) · [Try the calculator](https://yikshunming-art.github.io/tv-viewing-distance-calculator/) · [Elechid’s Hong Kong TV size calculator](https://elechid.com/en/pages/tv-size-calculator)
+[繁體中文](README.zh-Hant.md) · [Try the calculator](https://elechid.github.io/tv-viewing-distance-calculator/) · [Elechid’s Hong Kong TV size calculator](https://elechid.com/en/pages/tv-size-calculator)
 
 A free, open-source TV size calculator from **Elechid 音立**, a Hong Kong TV and home audio retailer. Enter the distance from your seated eye position to the screen to compare three 16:9 screen sizes. Download the files and open `index.html` in a browser for offline use. Calculations run locally and require no API, account, or third-party libraries.
 
