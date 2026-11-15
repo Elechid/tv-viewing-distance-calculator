@@ -33,3 +33,9 @@ The 30°, 35° and 40° values are reference targets shared with Elechid’s web
 - [Measure the lift, stairs and turns](https://elechid.com/en/blogs/news/large-tv-lift-staircase-measurement-hong-kong)
 
 The source code is available under the [MIT License](LICENSE).
+
+**繁中例子：** 坐距 2.5 米時，三個尺寸參考為 65、75 和 83 吋。
+
+## Mobile preview｜手機預覽
+
+<img src="mobile-preview.jpg" width="375" alt="Traditional Chinese calculator on mobile / 繁體中文計算器手機畫面">
