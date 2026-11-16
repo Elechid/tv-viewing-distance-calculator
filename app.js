@@ -4,7 +4,7 @@ const byId = id => document.getElementById(id);
 const distance = byId('distance');
 const results = byId('results');
 const error = byId('error');
-let chinese = new URLSearchParams(location.search).get('lang') === 'zh';
+let chinese = (new URLSearchParams(location.search).get('lang') ?? (location.pathname.endsWith('/zh.html') ? 'zh' : 'en')) === 'zh';
 
 const copy = {
   en: {
@@ -65,6 +65,9 @@ function renderResults() {
 function renderLanguage() {
   const words = chinese ? copy.zh : copy.en;
   document.documentElement.lang = chinese ? 'zh-Hant' : 'en';
+  for (const node of document.querySelectorAll('[data-example-en]')) {
+    node.textContent = chinese ? node.dataset.exampleZh : node.dataset.exampleEn;
+  }
   document.title = words.title + ' | Elechid 音立';
   for (const key of ['title', 'intro', 'label', 'notes']) byId(key).textContent = words[key];
   results.setAttribute('aria-label', words.resultLabel);

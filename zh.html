@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="zh-Hant"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="2.5 米坐距揀幾多吋電視？ 比較香港家居適用的 16:9 電視尺寸。請量度坐下時雙眼到屏幕的距離。">
+<title>電視視距與尺寸計算器 | Elechid 音立</title>
+<style>
+:root { color-scheme: light; font: 16px/1.55 system-ui,sans-serif; color: #142c25; background: #f3f7f2; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 58rem; margin: auto; padding: clamp(1rem, 5vw, 4rem); }
+header { display: flex; gap: 1rem; align-items: center; justify-content: space-between; }
+header a { font-weight: 750; }
+h1 { font-size: clamp(2rem, 6vw, 3.35rem); line-height: 1.12; letter-spacing: -.025em; margin-bottom: .65em; }
+h2 { font-size: 1.05rem; margin: 0 0 .25rem; }
+p { margin: .5rem 0 1rem; }
+label { display: block; font-weight: 650; }
+input, button { font: inherit; color: inherit; background: white; padding: .55rem .8rem; border: 1px solid #6a8170; border-radius: .55rem; }
+input { width: 11rem; margin: .35rem 0 1rem; }
+button { cursor: pointer; }
+a { color: #14553c; text-underline-offset: .16em; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%, 13rem),1fr)); gap: .75rem; }
+article { background: white; border: 1px solid #c9d9cf; border-radius: .85rem; padding: 1rem; }
+article p { margin: .25rem 0; }
+.size { font-size: 2.2rem; font-weight: 750; }
+footer { margin-top: 1.5rem; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.3rem; }
+</style>
+<script src="calculator.js" defer=""></script>
+<script src="app.js?v=20261116" defer=""></script>
+<link rel="canonical" href="https://elechid.github.io/tv-viewing-distance-calculator/zh.html"><link rel="alternate" href="https://elechid.github.io/tv-viewing-distance-calculator/" hreflang="en-HK"><link rel="alternate" href="https://elechid.github.io/tv-viewing-distance-calculator/zh.html" hreflang="zh-Hant-HK"></head>
+<body>
+<main>
+<header>
+<a id="brand" href="https://elechid.com/pages/tv-size-calculator">Elechid 音立</a>
+<button type="button" id="language" lang="en">English</button>
+</header>
+<h1 id="title">電視視距與尺寸計算器</h1>
+<p id="intro">比較香港家居適用的 16:9 電視尺寸。請量度坐下時雙眼到屏幕的距離。</p><section><h2 data-example-en="What TV size fits a 2.5 m viewing distance?" data-example-zh="2.5 米坐距揀幾多吋電視？">2.5 米坐距揀幾多吋電視？</h2><p data-example-en="For a 16:9 TV at 2.5 m, 65 inches gives about 32° of horizontal viewing angle, 75 inches about 37° and 83 inches about 40°. Consider 65 inches for a less immersive view or 75 or 83 inches for films. Measure eye-to-screen distance and check the bezel, stand and delivery route separately." data-example-zh="2.5 米坐距下，16:9 的 65 吋電視約有 32° 水平視角，75 吋約 37°，83 吋約 40°。想畫面較易一眼看清可比較 65 吋，想睇電影有更強包圍感可比較 75 或 83 吋。由坐姿眼睛量到屏幕，另核對機身、腳架和搬運尺寸。">2.5 米坐距下，16:9 的 65 吋電視約有 32° 水平視角，75 吋約 37°，83 吋約 40°。想畫面較易一眼看清可比較 65 吋，想睇電影有更強包圍感可比較 75 或 83 吋。由坐姿眼睛量到屏幕，另核對機身、腳架和搬運尺寸。</p></section>
+<label for="distance" id="label">觀看距離（米）</label>
+<input id="distance" type="number" inputmode="decimal" min="0.1" max="30" step="any" value="2.5" aria-describedby="error" aria-invalid="false">
+<p id="error" role="status" hidden=""></p>
+<section id="results" class="cards" aria-live="polite" aria-label="尺寸參考"><article><h2>較細尺寸 · 30°</h2><p class="size">65 吋</p><p>143.9 × 80.9 cm</p><p>實際水平視角 32.1°</p></article><article><h2>中間尺寸 · 35°</h2><p class="size">75 吋</p><p>166.0 × 93.4 cm</p><p>實際水平視角 36.7°</p></article><article><h2>較大尺寸 · 40°</h2><p class="size">83 吋</p><p>183.7 × 103.4 cm</p><p>實際水平視角 40.4°</p></article></section>
+<noscript>互動計算需要 JavaScript。</noscript>
+<footer>
+<p id="notes">屏幕闊度未計邊框、腳架同紙箱。買之前請按完整型號核對電視櫃、腳架間距同入屋路線。</p>
+<nav aria-label="Elechid" id="links"><a href="https://elechid.com/pages/tv-size-calculator">官網計算器</a><a href="https://elechid.com/collections/65-inch-smart-tv">比較 65 吋電視</a><a href="https://elechid.com/collections/75-inch-smart-tv">比較 75 吋電視</a><a href="https://elechid.com/blogs/news/large-tv-lift-staircase-measurement-hong-kong">電視入屋量度清單</a></nav>
+</footer>
+<nav aria-label="語言及工具索引"><a href="./" lang="en" hreflang="en">English</a> <a href="./zh.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a> <a href="https://github.com/Elechid">Elechid 工具索引</a> </nav></main>
+
+
+</body></html>
